@@ -1,0 +1,73 @@
+<header class="d-flex">
+  <div class="head-bg" [ngStyle]="{'background-image': 'url(assets/img/piccolo-inc_tractor-header.png)'}"></div>
+  <div class="container my-auto">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="slide-card-wrapper">
+          <div class="slide-card sr-card">
+            <div class="slide-card-body">
+              <h2 class="text-animate-1">Our Drivers</h2>
+              <p class="text-muted text-animate-2">Our drivers are an important part of our team at Piccolo inc. We want to do everything we can to help them succeed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="quick-info-wrapper">
+    <ul class="quick-info">
+      <li>
+        <img src="assets/img/piccolo-inc_phone.svg">
+        <p class="mb-0"><a href="tel:2707816021">(270) 781-6021</a></p>
+      </li>
+      <li>
+        <img src="assets/img/piccolo-inc_location.svg">
+        <p class="mb-0">7520 Louisville Road, Bowling Green, KY 42101</p>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="slide-card-wrapper">
+          <div class="slide-card sr-card">
+            <img class="slide-card-head" src="./assets/img/piccolo-inc_about.jpg">
+            <div class="slide-card-body">
+              <h2>Apply Now</h2>
+              <p class="text-muted">You can use this form to apply online for a driving position. If you have any questions, we've answered some <a routerLink="/drivers/faq">frequently asked questions</a>, but you may always call us at <a href="tel:2707816021">(270) 781-6021</a>.</p>
+              <div class="btn-wrapper">
+                <a class="btn" routerLink="/drivers/faq">
+                  <span class="btn-text">Learn More</span>
+                  <img src="assets/img/piccolo-inc_arrow-r.svg">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mx-auto">
+        <div class="slide-card-wrapper">
+          <div class="slide-card sr-card">
+            <img class="slide-card-head" src="assets/img/piccolo-inc_clients.jpg">
+            <div class="slide-card-body">
+              <h2>Safety Resources</h2>
+              <p class="text-muted">Below, you'll find important documents to consider concerning the safety guidlines of Piccolo Inc.</p>
+              <ul class="doc-links">
+                <li><a href="#">CSA - Compliance, Safety, Accountability for CMV Drivers manual</a></li>
+                <li><a href="#">Interstate Truck Driver's Guide to Hours of Service</a></li>
+                <li><a href="#">CSA compliance letter</a></li>
+                <li><a href="#">Disciplinary procedures for D.O.T</a></li>
+                <li><a href="#">Drivers Handbook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-contact></app-contact>
