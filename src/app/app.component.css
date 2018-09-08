@@ -1,6 +1,10 @@
 #mainNav {
   background: #F9BE58;
   padding: 1.2rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
 }
 #mainNav .navbar-brand { padding: 0 0 0 2.4rem; }
 #mainNav .navbar-brand > svg {
@@ -20,7 +24,7 @@
   height: 42px;
 }
 #mainNav .nav-links-wrapper {
-  position: fixed;
+  position: absolute;
   top: 5rem;
   right: 0;
   overflow: hidden;
@@ -67,6 +71,7 @@
   #mainNav {
     background: transparent !important;
     padding: 2rem;
+    position: absolute;
   }
   #mainNav .navbar-brand > svg { height: 56px; }
   #mainNav .nav-btn {
