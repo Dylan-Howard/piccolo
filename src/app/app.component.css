@@ -32,8 +32,9 @@
 }
 #mainNav .nav-links {
   background: #F9BE58;
+  cursor: pointer;
   display: block;
-  padding: 1rem 3rem;
+  padding: 1rem;
   margin: 0;
 
   font-size: 2rem;
@@ -67,7 +68,7 @@
 #mainNav.navbar-shrink .nav-links { background: #F9BE58; }
 #mainNav.navbar-shrink .nav-links .nav-link > a { color: rgba(255,255,255,.8); }
 #mainNav.navbar-shrink .nav-links .nav-link > a:hover { color: #FFFFFF; }
-@media (min-width: 478px) {
+@media (min-width: 992px) {
   #mainNav {
     background: transparent !important;
     padding: 2rem;
@@ -118,3 +119,5 @@ footer a:hover {
   color: rgba(33,33,33,1);
   text-decoration: none;
 }
+
+#lang { display: none; }

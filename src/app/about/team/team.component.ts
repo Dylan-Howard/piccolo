@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-team',
@@ -52,9 +53,56 @@ export class TeamComponent implements OnInit {
     }
   ]
 
+  en = {
+    heroTitle: "Our Team",
+    heroContent: "Our team at Piccolo Inc. is composed of highly skilled and well-trained people who desire to work well for the benefit of every party involved.",
+    heroScroll: "Scroll Down"
+  }
+
+  es = {
+    heroTitle: "Nuestros Equipo",
+    heroContent: "Nuestro equipo de Piccolo Inc. está compuesto por personas altamente capacitadas y bien capacitadas que desean trabajar bien para el beneficio de cada una de las partes involucradas.",
+    heroScroll: "Desplazarse hacia abajo"
+  }
+
+  lang = "en";
+  content = this.en;
+
+  syncLang() {
+    if(document.getElementById('lang').innerHTML === "en") {
+      this.content = this.en;
+      this.lang = "en";
+    } else {
+      this.content = this.es;
+      this.lang = "es";
+    }
+  }
+  checkLang() {
+    if(document.getElementById('lang').innerHTML != this.lang) {
+      this.syncLang();
+    }
+  }
+
   constructor() { }
 
   ngOnInit() {
+    var self = this;
+    setInterval(
+      function() {
+        self.checkLang()
+      }
+    ,100);
+
+    if($('.scroll-down').length) {
+      $('.scroll-down').click(function() {
+        $('html, body').animate(
+          {scrollTop: $(window).height()}, 650,
+          function (x, t, b, c, d) {
+            if ((t/=d/2) < 1) return c/2*t*t*t*t + b;
+            return -c/2 * ((t-=2)*t*t*t - 2) + b;
+          });
+      });
+    }
   }
 
 }

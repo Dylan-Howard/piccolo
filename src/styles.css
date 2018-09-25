@@ -1,15 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
-body {
-  background: transparent;
-}
+body { background: transparent; }
 
 h1, h2, h3 {
   color: #2a2a2a;
   margin-bottom: 1.2rem;
 }
 
-a { color: #F9BE58; }
+a {
+  color: #F9BE58;
+  outline: none;
+}
 a:hover { color: #F9BE58; }
 
 ul { list-style: none; padding: 0; }
@@ -19,9 +20,7 @@ ul { list-style: none; padding: 0; }
   padding: .5rem;
 }
 
-.text-muted {
-  color: rgba(82, 82, 82, 0.7);
-}
+.text-muted { color: rgba(82, 82, 82, 0.7); }
 
 .btn-wrapper {
   height: auto;
@@ -80,8 +79,10 @@ header {
   height: 95vh;
   width: 100vw;
   position: relative;
+  top: calc(2.4rem + 42px);
   overflow: hidden;
 }
+@media (min-width: 992px) { header { top: 0; } }
 
 header .head-bg {
   height: 100%;
@@ -128,9 +129,7 @@ header .scroll-down {
   -moz-transition: all .3s;
   transition: all .3s;
 }
-header .scroll-down:active {
-  border: none;
-}
+header .scroll-down:active { border: none; }
 header .scroll-down > img {
   height: 1.2rem;
   margin: 0 .5rem;
@@ -288,21 +287,11 @@ section {
 }
 
 @media (min-width: 468px)) {
-  section {
-    padding: 4rem;
-  }
-  .slide-card {
-    width: 83%;
-  }
-  .btn-wrapper {
-    width: calc(100% + 4.8rem);
-  }
-  .map-wrapper {
-    width: 120%;
-  }
-  .quick-info-wrapper {
-    display: block;
-  }
+  section { padding: 4rem; }
+  .slide-card { width: 83%; }
+  .btn-wrapper { width: calc(100% + 4.8rem); }
+  .map-wrapper { width: 120%; }
+  .quick-info-wrapper { display: block; }
 }
 
 @keyframes slideInRight {

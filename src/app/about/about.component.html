@@ -6,13 +6,13 @@
         <div class="slide-card-wrapper">
           <div class="slide-card sr-card">
             <div class="slide-card-body">
-              <h2 class="text-animate-1">Our History</h2>
-              <p class="text-muted text-animate-2">Piccolo Inc. is a privately held transportation and logistics company established in 2005 by two MBA graduates. From our beginning Piccolo Inc. has worked to provide timely, low-cost, and reliable transportation management services. We strive to help our clients manage an increasingly complex supply chain, reduce distribution expenses, and enable them to focus on their core competencies.</p>
+              <h2 class="text-animate-1">{{ content.heroTitle }}</h2>
+              <p class="text-muted text-animate-2">{{ content.heroContent }}</p>
             </div>
           </div>
         </div>
         <button class="scroll-down">
-          Scroll Down
+          {{ content.heroScroll }}
           <img src="assets/img/piccolo-inc_arrow-d.svg"/>
         </button>
       </div>
@@ -40,11 +40,11 @@
           <div class="slide-card sr-card">
             <!-- <img class="slide-card-head" src="assets/img/piccolo-inc_about.jpg"> -->
             <div class="slide-card-body">
-              <h2>Our Principles</h2>
-              <p class="text-muted">Piccolo Inc. was intentionally founded on guiding principles that we still hold valuable today. These inculde Customer Value and Satisfaction, Employee Development, Economic Performance, a Relationship Model, Business Transparency, and Corporate Social Responsibility</p>
+              <h2>{{ content.principlesTitle }}</h2>
+              <p class="text-muted">{{ content.principlesContent }}</p>
               <div class="btn-wrapper">
                 <a class="btn" routerLink="/about/principles">
-                  <span class="btn-text">Learn More</span>
+                  <span class="btn-text">{{ content.principlesCTA }}</span>
                   <img src="assets/img/piccolo-inc_arrow-r.svg">
                 </a>
               </div>
@@ -57,11 +57,11 @@
           <div class="slide-card sr-card">
             <!-- <img class="slide-card-head" src="assets/img/piccolo-inc_clients.jpg"> -->
             <div class="slide-card-body">
-              <h2>Our Team</h2>
-              <p class="text-muted">Our team at Piccolo Inc. is composed of highly skilled and well-trained people who desire to work well for the benefit of every party involved.</p>
+              <h2>{{ content.teamTitle }}</h2>
+              <p class="text-muted">{{ content.teamContent }}</p>
               <div class="btn-wrapper">
                 <a class="btn" routerLink="/about/team">
-                  <span class="btn-text">See Our Team</span>
+                  <span class="btn-text">{{ content.teamCTA }}</span>
                   <img src="assets/img/piccolo-inc_arrow-r.svg">
                 </a>
               </div>

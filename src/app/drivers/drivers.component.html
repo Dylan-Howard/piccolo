@@ -6,11 +6,15 @@
         <div class="slide-card-wrapper">
           <div class="slide-card sr-card">
             <div class="slide-card-body">
-              <h2 class="text-animate-1">Our Drivers</h2>
-              <p class="text-muted text-animate-2">Our drivers are an important part of our team at Piccolo inc. We want to do everything we can to help them succeed.</p>
+              <h2 class="text-animate-1">{{ content.heroTitle }}</h2>
+              <p class="text-muted text-animate-2">{{ content.heroContent }}</p>
             </div>
           </div>
         </div>
+        <button class="scroll-down">
+          {{ content.heroScroll }}
+          <img src="assets/img/piccolo-inc_arrow-d.svg"/>
+        </button>
       </div>
     </div>
   </div>
@@ -36,11 +40,11 @@
           <div class="slide-card sr-card">
             <img class="slide-card-head" src="./assets/img/piccolo-inc_about.jpg">
             <div class="slide-card-body">
-              <h2>Apply Now</h2>
-              <p class="text-muted">You can use this form to apply online for a driving position. If you have any questions, we've answered some <a routerLink="/drivers/faq">frequently asked questions</a>, but you may always call us at <a href="tel:2707816021">(270) 781-6021</a>.</p>
+              <h2>{{ content.questionsTitle }}</h2>
+              <p class="text-muted"> {{ content.questionsContent }}<a href="tel:2707816021">(270) 781-6021</a>.</p>
               <div class="btn-wrapper">
                 <a class="btn" routerLink="/drivers/faq">
-                  <span class="btn-text">Learn More</span>
+                  <span class="btn-text">{{ content.questionsCTA }}</span>
                   <img src="assets/img/piccolo-inc_arrow-r.svg">
                 </a>
               </div>
@@ -53,14 +57,10 @@
           <div class="slide-card sr-card">
             <img class="slide-card-head" src="assets/img/piccolo-inc_clients.jpg">
             <div class="slide-card-body">
-              <h2>Safety Resources</h2>
-              <p class="text-muted">Below, you'll find important documents to consider concerning the safety guidlines of Piccolo Inc.</p>
+              <h2>{{ content.safetyTitle }}</h2>
+              <p class="text-muted">{{ content.safetyContent }}</p>
               <ul class="doc-links">
-                <li><a href="#">CSA - Compliance, Safety, Accountability for CMV Drivers manual</a></li>
-                <li><a href="#">Interstate Truck Driver's Guide to Hours of Service</a></li>
-                <li><a href="#">CSA compliance letter</a></li>
-                <li><a href="#">Disciplinary procedures for D.O.T</a></li>
-                <li><a href="#">Drivers Handbook</a></li>
+                <li *ngFor="let link of content.safetyLinks"><a href="{{ link.link }}">{{ link.title }}</a></li>
               </ul>
             </div>
           </div>

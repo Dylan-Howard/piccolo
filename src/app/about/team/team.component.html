@@ -6,11 +6,15 @@
         <div class="slide-card-wrapper">
           <div class="slide-card sr-card">
             <div class="slide-card-body">
-              <h1 class="text-animate-1">Our Team</h1>
-              <p class="text-muted text-animate-2">Our team at Piccolo Inc. is composed of highly skilled and well-trained people who desire to work well for the benefit of every party involved.</p>
+              <h1 class="text-animate-1">{{ content.heroTitle }}</h1>
+              <p class="text-muted text-animate-2">{{ content.heroContent }}</p>
             </div>
           </div>
         </div>
+        <button class="scroll-down">
+          {{ content.heroScroll }}
+          <img src="assets/img/piccolo-inc_arrow-d.svg"/>
+        </button>
       </div>
     </div>
   </div>
