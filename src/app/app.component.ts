@@ -97,14 +97,14 @@ export class AppComponent {
       setInterval(function() { navbarCollapse(); scrollReveal(); }, 100);
 
       setInterval(function() {
-        console.log(document.getElementById('lang').innerHTML);
+        // console.log(document.getElementById('lang').innerHTML);
       },1000);
 
       /* Misc Functions */
       if($('a').length) {
         $('a').click(function() {
           $(document).scrollTop(0);
-          $('.nav-links').removeClass('nav-open');
+          $('.nav-links-wrapper').removeClass('nav-open');
         });
       }
       if($('.scroll-down').length) {
@@ -119,7 +119,7 @@ export class AppComponent {
       }
       if($('.nav-btn').length) {
         $('.nav-btn').click(function(el) {
-          $('.nav-links').toggleClass('nav-open');
+          $('.nav-links-wrapper').toggleClass('nav-open');
         });
       }
     });

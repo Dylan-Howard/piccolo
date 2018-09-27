@@ -267,9 +267,11 @@ section {
 }
 
 .contact-icon {
-  display: inline-block;
+  display: block;
   padding: 3.5%;
-  width: 50%; }
+  width: 50%;
+}
+@media(min-width: 992px) { .contact-icon { display: inline-block; } }
 .contact-icon i, .contact-icon a { display: block; }
 
 /* Animations */

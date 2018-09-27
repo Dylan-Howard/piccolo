@@ -14,42 +14,42 @@ export class TeamComponent implements OnInit {
       title:'Insert Title Here',
       number:'2707819163',
       publicNumber:'(270) 781-9163',
-      email:'tamara@piccoloins.com'
+      email:'tamara@piccoloinc.com'
     },
     {
       name:'You Han',
       title:'Insert Title Here',
       number:'2707810499',
       publicNumber:'(270) 781-0499',
-      email:'you@piccoloins.com'
+      email:'accounting@piccoloinc.com'
     },
     {
       name:'Kirsten Wilson',
       title:'Insert Title Here',
       number:'2707812672',
       publicNumber:'(270) 781-2672',
-      email:'Kirsten@piccoloins.com'
+      email:'Kirsten@piccoloinc.com'
     },
     {
       name:'Darko Grgic',
       title:'Insert Title Here',
       number:'2707816046',
       publicNumber:'(270) 781-6046',
-      email:'Darko@piccoloins.com'
+      email:'Darko@piccoloinc.com'
     },
     {
       name:'Krisin Lobos',
       title:'Insert Title Here',
       number:'2707816021',
       publicNumber:'(270) 781-6021',
-      email:'Krisin@piccoloins.com'
+      email:'Krisin@piccoloinc.com'
     },
     {
       name:'Colby Cobb',
       title:'Insert Title Here',
       number:'2707813384',
       publicNumber:'(270) 781-3384',
-      email:'Colby@piccoloins.com'
+      email:'Colby@piccoloinc.com'
     }
   ]
 

@@ -24,12 +24,15 @@
   height: 42px;
 }
 #mainNav .nav-links-wrapper {
+  display: block;
   position: absolute;
   top: 5rem;
   right: 0;
   overflow: hidden;
+  height: 0;
   width: 100%;
 }
+#mainNav .nav-links-wrapper.nav-open { height: auto; }
 #mainNav .nav-links {
   background: #F9BE58;
   cursor: pointer;
@@ -48,7 +51,7 @@
   -moz-transition: -moz-transform .35s;
   transition: transform .35s;
 }
-#mainNav .nav-links.nav-open {
+#mainNav .nav-links-wrapper.nav-open .nav-links {
   -webkit-transform: translate3d(0,0,0);
   -moz-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
@@ -80,6 +83,7 @@
   }
   #mainNav .nav-links-wrapper {
     top: 2rem;
+    height: auto;
     width: auto;
   }
   #mainNav .nav-links {
