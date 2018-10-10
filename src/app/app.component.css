@@ -77,7 +77,10 @@
     padding: 2rem;
     position: absolute;
   }
-  #mainNav .navbar-brand > svg { height: 56px; }
+  #mainNav .navbar-brand > svg {
+    height: 56px;
+    fill: #F9BE58;
+  }
   #mainNav .nav-btn {
     display: none;
   }
