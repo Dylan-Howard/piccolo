@@ -68,7 +68,7 @@ ul { list-style: none; padding: 0; }
   top: .8rem;
   left: 2rem;
 }
-.btn > img {
+.btn > svg {
   height: 1.5rem;
   position: absolute;
   top: .8rem;
@@ -130,8 +130,7 @@ header .scroll-down {
   transition: all .3s;
 }
 header .scroll-down:active { border: none; }
-header .scroll-down > img {
-  height: 1.2rem;
+header .scroll-down > svg {
   margin: 0 .5rem;
 }
 header .scroll-down:hover {

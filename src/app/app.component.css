@@ -110,7 +110,7 @@
 .pre-footer { background: linear-gradient(#fafafa, #f8f8f8); }
 .pre-footer img { width: 100%; }
 footer { background: #f8f8f8; padding: 2rem; }
-footer svg {
+footer .foot-logo {
   fill: #F9BE58;
   max-width: 240px;
   width: 90%;
