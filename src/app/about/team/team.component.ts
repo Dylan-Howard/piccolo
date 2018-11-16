@@ -38,7 +38,7 @@ export class TeamComponent implements OnInit {
       email:'Darko@piccoloinc.com'
     },
     {
-      name:'Krisin Lovos',
+      name:'Kristin Lovos',
       title:'Insert Title Here',
       number:'2707816021',
       publicNumber:'(270) 781-6021',
