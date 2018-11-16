@@ -24,7 +24,8 @@ export class AppComponent {
     footAbout3: "Our Services",
     footDrivers1: "Drivers",
     footDrivers2: "Safety Resources",
-    footCTA1: "Contact Us"
+    footCTA1: "Contact Us",
+    footCTA2: "Apply Now"
   }
 
   es = {
@@ -41,7 +42,8 @@ export class AppComponent {
     footAbout3: "Nuestros Servicios",
     footDrivers1: "Conductores",
     footDrivers2: "Recursos de Seguridad",
-    footCTA1: "Contáctenos"
+    footCTA1: "Contáctenos",
+    footCTA2: "Aplica Ya"
   }
 
   content = this.en;
