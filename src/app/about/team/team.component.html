@@ -52,6 +52,33 @@
 <section>
   <div class="container">
     <div class="row">
+      <div class="col-lg-4">
+        <div class="map-wrapper sr-card">
+          <a>
+            <img class="profile-picture" src="assets/img/piccolo-inc_senad.jpg">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="slide-card-wrapper">
+          <div class="slide-card sr-card">
+            <div class="slide-card-body">
+              <h2>{{ content.ownerTitle }}</h2>
+              <p class="text-muted">{{ content.ownerMessage }}</p>
+              <p class="text-muted">
+                <i class="fa fa-phone fa-1x right-margin"></i>
+                <a href="tel:{{content.ownerNumber}}">{{content.ownerPublicNumber}}</a>
+              </p>
+              <p class="text-muted">
+                <i class="fa fa-envelope fa-1x right-margin"></i>
+                <a href="mailto:{{content.ownerEmail}}">{{content.ownerEmail}}</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-6 col-lg-4 mx-auto my-4" *ngFor="let member of teamInfo">
         <div class="slide-card-wrapper">
           <div class="slide-card sr-card">

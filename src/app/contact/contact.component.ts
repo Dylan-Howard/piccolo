@@ -10,7 +10,7 @@ export class ContactComponent implements OnInit {
 
   en = {
     title: "Contact Us",
-    content: "If you have any questions, please feel free to send us a short message or give us a call us."
+    content: "If you have any questions, please feel free to send us a short message or give us a call."
   }
   es = {
     title: "Contáctenos",

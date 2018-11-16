@@ -8,10 +8,10 @@ h1, h2, h3 {
 }
 
 a {
-  color: #F9BE58;
+  color: #ffab00;
   outline: none;
 }
-a:hover { color: #F9BE58; }
+a:hover { color: #ffab00; }
 
 ul { list-style: none; padding: 0; }
 .doc-links li::before {
@@ -43,7 +43,7 @@ ul { list-style: none; padding: 0; }
 .btn {
   border: none;
   border-radius: 0;
-  background: #F9BE58;
+  background: #ffab00;
   color: #fff !important;
   font-weight: 700;
   height: 3rem;
@@ -235,7 +235,8 @@ header .slide-card.sr-show .btn {
   animation: slideInRight 1s .4s cubic-bezier(0.77, 0, 0.175, 1);
   animation-fill-mode: both;
 }
-.sr-show #googleMap {
+.sr-show #googleMap,
+.sr-show .profile-picture {
   animation: slideInRight 1s cubic-bezier(0.77, 0, 0.175, 1);
   animation-fill-mode: both;
 }
@@ -259,6 +260,16 @@ section {
   display: block;
   position: relative;
   width: 100%;
+
+  -webkit-transform: translate3d(-100%,0,0);
+  -moz-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.profile-picture {
+  display: block;
+  position: relative;
+  height: 300px;
 
   -webkit-transform: translate3d(-100%,0,0);
   -moz-transform: translate3d(-100%,0,0);
