@@ -269,7 +269,7 @@ section {
 .profile-picture {
   display: block;
   position: relative;
-  height: 300px;
+  height: 400px;
 
   -webkit-transform: translate3d(-100%,0,0);
   -moz-transform: translate3d(-100%,0,0);

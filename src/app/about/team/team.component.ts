@@ -50,6 +50,20 @@ export class TeamComponent implements OnInit {
       number:'2707817848',
       publicNumber:'(270) 781-7848',
       email:'erica@piccoloinc.com'
+    },
+    {
+      name:'Priscilla Herrera',
+      title:'Insert Title Here',
+      number:'2708463384',
+      publicNumber:'(270) 846-3384',
+      email:'priscilla@piccoloinc.com'
+    },
+    {
+      name:'Liz Benitez (Louisville office)',
+      title:'Insert Title Here',
+      number:'2707817848',
+      publicNumber:'5027854731',
+      email:'liz@piccoloinc.com'
     }
   ]
 
@@ -58,7 +72,7 @@ export class TeamComponent implements OnInit {
     heroContent: "Our team at Piccolo Inc. is composed of highly skilled and well-trained people who desire to work well for the benefit of every party involved. We are multi-lingual, speaking English, Madarin, Spanish, Serbian, Croatian, Bosnian.",
     heroScroll: "Scroll Down",
     ownerTitle: "About Our President",
-    ownerMessage: "Senad Veletanlic, our president, helped establish Piccolo Inc. in 2005. Having completed various degree and certificate programs at respected institutions, he began with the vision of becoming one of the leading transportation service providers by completely satisfying the logistics management needs of our clients. If you need any business, sales, or realty, he personally invited you to contact him.",
+    ownerMessage: "Senad Veletanlic, our president, helped establish Piccolo Inc. in 2005. Having completed various degree and certificate programs at respected institutions, he began with the vision of becoming one of the leading transportation service providers by completely satisfying the logistics management needs of our clients. If you need any business, sales, or realty, he personally welcomes you to contact him.",
     ownerNumber: "2707810000",
     ownerPublicNumber: "(270) 781-0000",
     ownerEmail: "senad@piccoloinc.com"
@@ -69,7 +83,7 @@ export class TeamComponent implements OnInit {
     heroContent: "Nuestro equipo de Piccolo Inc. está compuesto por personas altamente capacitadas y bien capacitadas que desean trabajar bien para el beneficio de cada una de las partes involucradas.",
     heroScroll: "Desplazarse hacia abajo",
     ownerTitle: "Sobre Nuestro Presidente",
-    ownerMessage: "Senad Veletanlic, nuestro presidente, ayudó a establecer Piccolo Inc. en 2005. Tras haber completado diversos programas de licenciatura y certificados en instituciones respetadas, comenzó con la visión de convertirse en uno de los proveedores de servicios de transporte líderes al satisfacer por completo las necesidades de gestión logística de nuestros clientes. Si necesita algún negocio, ventas o bienes raíces, él personalmente lo invitó a contactarlo.",
+    ownerMessage: "Senad Veletanlic, nuestro presidente, ayudó a establecer Piccolo Inc. en 2005. Tras haber completado diversos programas de licenciatura y certificados en instituciones respetadas, comenzó con la visión de convertirse en uno de los proveedores de servicios de transporte líderes al satisfacer por completo las necesidades de gestión logística de nuestros clientes. Si necesita algún negocio, ventas o bienes raíces, él personalmente lo invita a contactarlo.",
     ownerNumber: "2707810000",
     ownerPublicNumber: "(270) 781-0000",
     ownerEmail: "senad@piccoloinc.com"

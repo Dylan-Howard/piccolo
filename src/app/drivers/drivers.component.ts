@@ -21,23 +21,23 @@ export class DriversComponent implements OnInit {
     safetyLinks: [
       {
         title: "CSA - Compliance, Safety, Accountability for CMV Drivers manual",
-        link: "#"
+        link: "assets/safety/CSA2010.pdf"
       },
       {
         title: "Interstate Truck Driver's Guide to Hours of Service",
-        link: "#"
+        link: "assets/safety/FMC_CSA_12_008_BASICs_UnsafeDriving.pdf"
       },
       {
         title: "CSA compliance letter",
-        link: "#"
+        link: "assets/safety/csa_compliance_letter.pdf"
       },
       {
         title: "Disciplinary procedures for D.O.T",
-        link: "#"
+        link: "assets/safety/disciplinary_procedure.pdf"
       },
       {
         title: "Drivers Handbook",
-        link: "#"
+        link: "assets/safety/handbook.pdf"
       }
     ]
   }
@@ -55,23 +55,23 @@ export class DriversComponent implements OnInit {
     safetyLinks: [
       {
         title: "CSA - Compliance, Safety, Accountability for CMV Drivers manual",
-        link: "#"
+        link: "assets/safety/CSA2010.pdf"
       },
       {
         title: "Interstate Truck Driver's Guide to Hours of Service",
-        link: "#"
+        link: "assets/safety/FMC_CSA_12_008_BASICs_UnsafeDriving.pdf"
       },
       {
         title: "CSA compliance letter",
-        link: "#"
+        link: "assets/safety/csa_compliance_letter.pdf"
       },
       {
         title: "Disciplinary procedures for D.O.T",
-        link: "#"
+        link: "assets/safety/disciplinary_procedure.pdf"
       },
       {
         title: "Drivers Handbook",
-        link: "#"
+        link: "assets/safety/handbook.pdf"
       }
     ]
   }
