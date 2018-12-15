@@ -72,9 +72,11 @@ export class TeamComponent implements OnInit {
     heroContent: "Our team at Piccolo Inc. is composed of highly skilled and well-trained people who desire to work well for the benefit of every party involved. We are multi-lingual, speaking English, Madarin, Spanish, Serbian, Croatian, Bosnian.",
     heroScroll: "Scroll Down",
     ownerTitle: "About Our President",
-    ownerMessage: "Senad Veletanlic, our president, helped establish Piccolo Inc. in 2005. Having completed various degree and certificate programs at respected institutions, he began with the vision of becoming one of the leading transportation service providers by completely satisfying the logistics management needs of our clients. If you need any business, sales, or realty, he personally welcomes you to contact him.",
-    ownerNumber: "2707810000",
-    ownerPublicNumber: "(270) 781-0000",
+    ownerMessage: "Our president, Senad Veletanlic, established Piccolo Inc. in 2005. He desired to be a leading transportation-service provider by focusing customer satisfaction. Please feel free to contact him for any business needs.",
+    ownerWebsiteMessage: "For interests in realty, see ",
+    ownerWebsiteLink: "https://senadveletanlic.exprealty.com/",
+    ownerOfficeNumber: "2709918219",
+    ownerPublicOfficeNumber: "(270) 991-8219",
     ownerEmail: "senad@piccoloinc.com"
   }
 
@@ -83,9 +85,11 @@ export class TeamComponent implements OnInit {
     heroContent: "Nuestro equipo de Piccolo Inc. está compuesto por personas altamente capacitadas y bien capacitadas que desean trabajar bien para el beneficio de cada una de las partes involucradas.",
     heroScroll: "Desplazarse hacia abajo",
     ownerTitle: "Sobre Nuestro Presidente",
-    ownerMessage: "Senad Veletanlic, nuestro presidente, ayudó a establecer Piccolo Inc. en 2005. Tras haber completado diversos programas de licenciatura y certificados en instituciones respetadas, comenzó con la visión de convertirse en uno de los proveedores de servicios de transporte líderes al satisfacer por completo las necesidades de gestión logística de nuestros clientes. Si necesita algún negocio, ventas o bienes raíces, él personalmente lo invita a contactarlo.",
-    ownerNumber: "2707810000",
-    ownerPublicNumber: "(270) 781-0000",
+    ownerMessage: "Nuestro presidente, Senad Veletanlic, fundó Piccolo Inc. en 2005. Deseaba ser un proveedor líder de servicios de transporte enfocando la satisfacción del cliente. Por favor, siéntase libre de contactarlo para cualquier necesidad comercial.",
+    ownerWebsiteMessage: "Para intereses en bienes raíces, ver ",
+    ownerWebsiteLink: "https://senadveletanlic.exprealty.com/",
+    ownerOfficeNumber: "2709918219",
+    ownerPublicOfficeNumber: "(270) 991-8219",
     ownerEmail: "senad@piccoloinc.com"
   }
 

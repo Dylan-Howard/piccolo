@@ -13,7 +13,7 @@
         </div>
         <button class="scroll-down">
           {{ content.heroScroll }}
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25.16 29.91" height="1.2rem">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25.16 29.91" height="16px">
             <defs>
               <style>.cls-1{fill:none;}.cls-2{opacity:0.8;}.cls-3{clip-path:url(#clip-path);}.cls-4{fill:#fff;}</style>
               <clipPath id="clip-path" transform="translate(-5.96 -7.17)">
@@ -65,9 +65,10 @@
             <div class="slide-card-body">
               <h2>{{ content.ownerTitle }}</h2>
               <p class="text-muted">{{ content.ownerMessage }}</p>
+              <p class="text-muted">{{ content.ownerWebsiteMessage }} <a href="{{ content.ownerWebsiteLink }}">{{ content.ownerWebsiteLink }}</a>.</p>
               <p class="text-muted">
                 <i class="fa fa-phone fa-1x right-margin"></i>
-                <a href="tel:{{content.ownerNumber}}">{{content.ownerPublicNumber}}</a>
+                <a href="tel:{{content.ownerOfficeNumber}}">{{content.ownerPublicOfficeNumber}}</a>
               </p>
               <p class="text-muted">
                 <i class="fa fa-envelope fa-1x right-margin"></i>
