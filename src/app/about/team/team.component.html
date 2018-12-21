@@ -64,15 +64,20 @@
           <div class="slide-card sr-card">
             <div class="slide-card-body">
               <h2>{{ content.ownerTitle }}</h2>
-              <p class="text-muted">{{ content.ownerMessage }}</p>
-              <p class="text-muted">{{ content.ownerWebsiteMessage }} <a href="{{ content.ownerWebsiteLink }}">{{ content.ownerWebsiteLink }}</a>.</p>
-              <p class="text-muted">
-                <i class="fa fa-phone fa-1x right-margin"></i>
-                <a href="tel:{{content.ownerOfficeNumber}}">{{content.ownerPublicOfficeNumber}}</a>
-              </p>
+              <p class="text-muted">{{ content.ownerMessage1 }}</p>
+              <p class="text-muted">{{ content.ownerMessage2 }}</p>
+              <p class="text-muted">{{ content.ownerMessage3 }}</p>
               <p class="text-muted">
                 <i class="fa fa-envelope fa-1x right-margin"></i>
-                <a href="mailto:{{content.ownerEmail}}">{{content.ownerEmail}}</a>
+                <a href="mailto:{{content.ownerEmail}}">{{ content.ownerEmail }}</a>
+              </p>
+              <p class="text-muted">
+                <i class="fa fa-phone fa-1x right-margin"></i>
+                <a href="tel:{{content.ownerOfficeNumber}}">{{ content.ownerPublicOfficeNumber }}</a>
+              </p>
+              <p class="text-muted">
+                <i class="fa fa-desktop fa-1x right-margin"></i>
+                <a href="tel:{{content.ownerOfficeNumber}}">{{ content.ownerWebsiteLink }}</a>
               </p>
             </div>
           </div>
