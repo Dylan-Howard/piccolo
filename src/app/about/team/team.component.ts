@@ -24,13 +24,6 @@ export class TeamComponent implements OnInit {
       email:'accounting@piccoloinc.com'
     },
     {
-      name:'Kirsten Wilson',
-      title:'Insert Title Here',
-      number:'2707812672',
-      publicNumber:'(270) 781-2672',
-      email:'Kirsten@piccoloinc.com'
-    },
-    {
       name:'Darko Grgic',
       title:'Insert Title Here',
       number:'2707816046',
@@ -69,7 +62,7 @@ export class TeamComponent implements OnInit {
 
   en = {
     heroTitle: "Our Team",
-    heroContent: "Our team at Piccolo Inc. is composed of highly skilled and well-trained people who desire to work well for the benefit of every party involved. We are multi-lingual, speaking English, Madarin, Spanish, Serbian, Croatian, Bosnian.",
+    heroContent: "Our team at Piccolo Inc. is composed of highly skilled and well-trained people who desire to work well for the benefit of every party involved. We are multi-lingual, speaking English, Mandarin, Spanish, Serbian, Croatian, Bosnian.",
     heroScroll: "Scroll Down",
     ownerTitle: "About Our President",
     ownerMessage1: "Senad Veletanlic is the president and founder of Piccolo Inc. Senad has completed several degrees and certifications including a bachelor’s degree and his MBA at Western Kentucky University, as well as a Certificate of Business Excellence from Vanderbilt University.",
